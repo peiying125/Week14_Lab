@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		var data;
+		data=window.prompt("input data");
+		
+
+		var char;
+		char=window.prompt("input a char to search");
+
+		var result=data.indexOf(char);
+		var result1=data.lastIndexOf(char);
+		var result2=data.indexOf(char,3);
+		document.writeln(result+"<br>");
+		document.writeln(result1+"<br>");
+		document.writeln(result2);
+
+
+
+	</script>
+
+</body>
+</html>
